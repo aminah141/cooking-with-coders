@@ -19,6 +19,11 @@ body {
   justify-content: flex-end;
 }
 
+.on-a-budget {
+  text-transform: lowercase;
+
+}
+
 .row {
   text-align: center;
   column-gap: 40px;
@@ -33,6 +38,11 @@ body {
 
 .subheaders {
   text-align: center;
+}
+
+.img-one {
+  max-width: 100%;
+  max-height: auto;
 }
 
 .header {
