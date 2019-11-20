@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: #F9FCF7;
 }
 
 .starter-template {
@@ -31,18 +32,19 @@ body {
 
 .col-sm {
    text-align: center;
-   padding: 10px;
-   column-gap: 10px;
-   border: 1px solid black;
+   padding-right: 25px;
+   color: white;
 }
 
 .subheaders {
   text-align: center;
+  font-size: 1.5em;
 }
 
 .img-one {
   max-width: 100%;
   max-height: auto;
+  padding-bottom: 10px;
 }
 
 .header {
@@ -50,4 +52,52 @@ body {
   text-align: center;
   font-size: 2em;
   padding: 10px;
+}
+
+.col-one {
+  background-color: #8693E1;
+  padding: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.col-one:hover {
+  background-color: #7484DD;
+  transition: 0.6s ease;
+}
+
+.col-two {
+  background-color: #6374D9;
+  padding: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.col-two:hover {
+  background-color: #7180DC;
+  transition: 0.6s ease;
+}
+
+.col-three {
+  background-color: #4156D1;
+  padding: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.col-three:hover {
+  background-color: #303F99;
+  transition: 0.6s ease;
+}
+
+.col-four {
+  background-color: #2A3786;
+  padding: 10px;
+  color: white;
+  font-size: 1em;
+}
+
+.col-four:hover {
+  background-color: #171E4A;
+  transition: 0.6s ease;
 }
