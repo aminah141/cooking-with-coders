@@ -122,6 +122,9 @@ body {
     margin-left: 0;
     margin-right: 0;
 }
+.navbar {
+  background-color: black;
+}
 .one {
     display: flex;
     background: black;
