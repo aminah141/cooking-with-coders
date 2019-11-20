@@ -35,21 +35,23 @@ body {
 }
 
 .col-sm {
-   text-align: center;
+   text-align: justify;
    padding-right: 25px;
    color: white;
 }
 
 .subheaders {
   font-family: verdana;
-  font-weight: bold;
-  text-align: center;
+  text-align: left;
+  border-bottom: 2px white;
+  border-bottom-style: solid;
   font-size: 1.5em;
 }
 
 .img-one {
   max-width: 100%;
   max-height: auto;
+  padding-top: 10px;
   padding-bottom: 10px;
 }
 
