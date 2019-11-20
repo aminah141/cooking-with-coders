@@ -1,0 +1,15 @@
+.navbar-brand {
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.navbar-nav.mr-auto {
+  font-family: verdana;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  justify-content: flex-end;
+}
