@@ -24,9 +24,8 @@ body {
   justify-content: flex-end;
 }
 
-.on-a-budget {
-  text-transform: lowercase;
-
+.navbar {
+  background-color: black;
 }
 
 .row {
