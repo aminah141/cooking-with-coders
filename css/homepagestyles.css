@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: #F9FCF7;
+  background-color: #E4E4E4;
 }
 
 .starter-template {
@@ -28,23 +28,38 @@ body {
   background-color: black;
 }
 
+
 .row {
   text-align: center;
-  column-gap: 40px;
 }
 
 .col-sm {
    text-align: justify;
-   padding-right: 25px;
+   margin-right: 20px;
+   margin-left: 20px;
+   padding-right: 10 px;
+   padding-bottom: 50px;
    color: white;
 }
 
 .subheaders {
   font-family: verdana;
-  text-align: left;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px black;
+  border-bottom-style: solid;
+  font-size: 1.25em;
+}
+
+.subheaders-two {
+  font-family: verdana;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
   border-bottom: 2px white;
   border-bottom-style: solid;
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 .img-one {
@@ -54,6 +69,12 @@ body {
   padding-bottom: 10px;
 }
 
+.img-zero {
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 10px;
+}
+
 .header {
   font-family: verdana;
   font-weight: bold;
@@ -61,78 +82,78 @@ body {
   text-align: center;
   font-size: 2em;
   padding: 10px;
+  padding-top: 30px;
 }
 
 .col-one {
-  background-color: #8693E1;
+  background-color: #B54898;
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
 .col-one:hover {
-  background-color: #7484DD;
+  color: white;
   transition: 0.6s ease;
 }
 
 .col-two {
-  background-color: #6374D9;
+  background-color: #F2B72E;
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
 .col-two:hover {
-  background-color: #7180DC;
+  color: white;
   transition: 0.6s ease;
 }
 
 .col-three {
-  background-color: #4156D1;
+  background-color: #F76D36;
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
 .col-three:hover {
-  background-color: #303F99;
+  color: white;
   transition: 0.6s ease;
 }
 
 .col-four {
-  background-color: #2A3786;
+  background-color: #338E6E;
   padding: 10px;
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
 .col-four:hover {
-  background-color: #171E4A;
+  color: white;
   transition: 0.6s ease;
 }
 
-.way-two {
-    display: flex;
-    align-items: right;
-    justify-content: flex-end;
-    flex-wrap: nowrap;
-    width: 100%;
-    margin-bottom: 2rem;
-    margin-left: 0;
-    margin-right: 0;
-}
-.navbar {
+.col-five {
   background-color: black;
+  color: white;
+  padding: 10px;
 }
-.one {
-    display: flex;
-    background: black;
-    width: 100%;
-    height: 300px;
-    margin-top: 2rem;
-    margin-left: 0;
-    margin-right: 0;
+
+.col-six {
+  background-color: #484DB5;
+  color: black;
+  padding: 10px;
 }
-.footer {
-    margin: 0;
+
+.carousel-one {
+  padding: 40px;
+}
+
+.section-two {
+  background-color: white;
+  color: black;
+}
+
+.section-three {
+  background-color: white;
 }
