@@ -69,6 +69,11 @@ body {
   padding-bottom: 10px;
 }
 
+.img-two {
+  max-width: 100%;
+  max-height: auto;
+}
+
 .img-zero {
   max-width: 100%;
   max-height: auto;
@@ -134,9 +139,10 @@ body {
 }
 
 .col-five {
-  background-color: black;
   color: white;
   padding: 10px;
+  align-content: center;
+  border: 2px solid black;
 }
 
 .col-six {
@@ -156,4 +162,39 @@ body {
 
 .section-three {
   background-color: white;
+}
+
+
+/* Add some padding and a grey background color to containers */
+.newsletter {
+  padding: 20px;
+  background-color: white;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: blue;
+  opacity: 0.8;
 }
