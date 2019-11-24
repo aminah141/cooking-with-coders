@@ -60,7 +60,7 @@ body {
 
 
 /*FOOTER*/
-
+/*THIS IS WHAT YOU NEED TO COPY*/
 footer {
   background-color: black;
   color: white;
@@ -69,7 +69,6 @@ footer {
 
 footer a {
   color: #fff;
-  font-size: 14px;
   font-family: verdana;
   transition-duration: 0.2s;
 }
@@ -89,3 +88,16 @@ footer a:hover {
   padding-top: 2em;
   color: white;
 }
+
+.footer-one {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-content {
+  font-size: .75em;
+}
+
+/*COPY UNTIL HERE*/
+/*END OF FOOTER*/
