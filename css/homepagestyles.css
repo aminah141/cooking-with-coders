@@ -140,9 +140,7 @@ body {
 
 .col-five {
   color: white;
-  padding: 10px;
   align-content: center;
-  border: 2px solid black;
 }
 
 .col-six {
@@ -200,7 +198,7 @@ input[type=submit]:hover {
 }
 
 /*FOOTER*/
-
+/*THIS IS WHAT YOU NEED TO COPY*/
 footer {
   background-color: black;
   color: white;
@@ -209,7 +207,6 @@ footer {
 
 footer a {
   color: #fff;
-  font-size: 14px;
   font-family: verdana;
   transition-duration: 0.2s;
 }
@@ -228,4 +225,22 @@ footer a:hover {
 .footer-middle {
   padding-top: 2em;
   color: white;
+}
+
+.footer-one {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.footer-content {
+  font-size: .75em;
+}
+
+/*COPY UNTIL HERE*/
+/*END OF FOOTER*/
+
+.contact-us {
+  justify-content: center;
+  padding-top: 100px;
 }
