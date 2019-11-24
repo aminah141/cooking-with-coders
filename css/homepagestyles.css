@@ -127,9 +127,7 @@ body {
 }
 
 .col-six {
-  background-color: #484DB5;
   color: black;
-  padding: 10px;
 }
 
 .carousel-one {
@@ -237,4 +235,19 @@ footer a:hover {
   text-decoration: none;
   color: white;
   transition: 0.6s ease;
+}
+
+.no-underline-two {
+  text-decoration: none;
+  color: black;
+}
+
+.no-underline-two:hover {
+  text-decoration: none;
+  color: grey;
+  transition: 0.6s ease;
+}
+
+.rectext {
+  padding-top: 10px;
 }
