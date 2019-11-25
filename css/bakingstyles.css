@@ -108,10 +108,6 @@ body {
   max-height: auto;
 }
 
-.section-one {
-  padding-bottom: 10px;
-}
-
 .section-zero {
   background-color: #B54898;
   color: black;
@@ -203,17 +199,6 @@ footer a:hover {
 
 /*COPY UNTIL HERE*/
 /*END OF FOOTER*/
-
-.no-underline {
-  text-decoration: none;
-  color: black;
-}
-
-.no-underline:hover {
-  text-decoration: none;
-  color: white;
-  transition: 0.6s ease;
-}
 
 .section-one {
   padding: 50px;
