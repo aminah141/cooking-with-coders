@@ -28,6 +28,141 @@ body {
   background-color: black;
 }
 
+
+.row {
+  text-align: center;
+}
+
+.col-sm {
+   text-align: left;
+   margin-right: 20px;
+   margin-left: 20px;
+   color: white;
+   padding-top: 20px;
+}
+
+.subheaders {
+  font-family: verdana;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 2px black;
+  border-bottom-style: solid;
+  font-size: 1.25em;
+}
+
+.col-one {
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-two {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-three {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-four {
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-five {
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-six {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-seven {
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.col-eight {
+  padding: 10px;
+  color: black;
+  font-size: 1em;
+  text-align: left;
+}
+
+.img-one {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.section-one {
+  padding-bottom: 10px;
+}
+
+.section-zero {
+  background-color: #B54898;
+  color: black;
+}
+
+.section-zero:hover {
+  background-color: #C269AA;
+  transition: 0.6s ease;
+}
+
+.section-two {
+  background-color: #F2B72E;
+  color: black;
+}
+
+.section-two:hover {
+  background-color: #F4C454;
+  transition: 0.6s ease;
+}
+
+.section-three {
+  background-color: #F76D36;
+  color: black;
+}
+
+.section-three:hover {
+  background-color: #F8875A;
+  transition: 0.6s ease;
+}
+
+.section-four {
+  background-color: #338E6E;
+  color: black;
+}
+
+.section-four:hover {
+  background-color: #58A288;
+  transition: 0.6s ease;
+}
+
+.header {
+  font-family: verdana;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px;
+}
+
+/*FOOTER*/
+/*THIS IS WHAT YOU NEED TO COPY*/
 footer {
   background-color: black;
   color: white;
@@ -64,4 +199,22 @@ footer a:hover {
 
 .footer-content {
   font-size: .75em;
+}
+
+/*COPY UNTIL HERE*/
+/*END OF FOOTER*/
+
+.no-underline {
+  text-decoration: none;
+  color: black;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+  color: white;
+  transition: 0.6s ease;
+}
+
+.section-one {
+  padding: 50px;
 }
