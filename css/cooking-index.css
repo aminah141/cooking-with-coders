@@ -28,7 +28,6 @@ body {
   background-color: black;
 }
 
-
 .row {
   text-align: center;
 }
@@ -93,7 +92,7 @@ body {
 .col-seven {
   color: black;
   font-size: 1em;
-  text-align: left;
+  text-align: left
 }
 
 .col-eight {
@@ -104,49 +103,29 @@ body {
 }
 
 .img-one {
-  max-width: 100%;
+  max-width: 80%;
   max-height: auto;
 }
 
 .section-zero {
-  background-color: ##B0E0E6;
+  background-color: #B0E0E6;
   color: black;
-}
-
-.section-zero:hover {
-  background-color: #C269AA;
-  transition: 0.6s ease;
 }
 
 .section-two {
-  background-color: #F2B72E;
+  background-color: #E6E6FA;
   color: black;
-}
-
-.section-two:hover {
-  background-color: #F4C454;
-  transition: 0.6s ease;
 }
 
 .section-three {
-  background-color: #F76D36;
+  background-color: #B0E0E6;
   color: black;
 }
-
-.section-three:hover {
-  background-color: #F8875A;
-  transition: 0.6s ease;
-}
-
 .section-four {
-  background-color: #338E6E;
+  background-color: #E6E6FA;
   color: black;
 }
 
-.section-four:hover {
-  background-color: #58A288;
-  transition: 0.6s ease;
-}
 
 .header {
   font-family: verdana;
@@ -202,4 +181,29 @@ footer a:hover {
 
 .section-one {
   padding: 50px;
+}
+
+.carousel-caption h3 {
+  color: LightCyan;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 3em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: black;
+}
+.carousel-caption p {
+  color: LightCyan;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 1em;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background: black;
+  background-size: contain;
+}
+.carousel-item {
+  background-size: cover;
 }
